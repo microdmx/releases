@@ -1,11 +1,13 @@
-# MicroDMX — firmware binaries
+# MicroDMX — firmware
 
-Zkompilované firmware `.bin` pro **MicroDMX** (ESP32-C6 světelný pult) — pro
-OTA update přes web / z GitHubu. Zdrojový kód: `microdmx/firmware` (privátní).
+Oficiální aktualizace firmwaru pro zařízení **MicroDMX**. Zařízení si je stahují
+sama (Nastavení → Firmware → Zkontrolovat aktualizace); ruční instalace je
+možná nahráním souboru ve stejné sekci.
 
-## Jak nahrát
-- **Web OTA:** v pultu → Nastavení ⚙ → Firmware → nahraj `microdmx.bin` z posledního release.
-- **Přímý odkaz na poslední verzi:**
-  `https://github.com/microdmx/releases/releases/latest/download/microdmx.bin`
+| Varianta | Soubor |
+|----------|--------|
+| MicroDMX Lite | `microdmx.bin` |
+| MicroDMX PRO | `microdmx-esplan.bin` |
 
-Každý release = jedna verze firmwaru s přiloženým `microdmx.bin`.
+Vždy nahrávejte soubor pro svou variantu — zařízení soubor pro jiný hardware
+odmítne. Show ani nastavení se aktualizací nemažou.
