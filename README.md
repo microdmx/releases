@@ -6,8 +6,8 @@ možná nahráním souboru ve stejné sekci.
 
 | Varianta | Soubor |
 |----------|--------|
-| MicroDMX Lite | `microdmx.bin` |
-| MicroDMX PRO | `microdmx-esplan.bin` |
+| MicroDMX Lite | `microdmx-lite.bin` |
+| MicroDMX PRO | `microdmx-pro.bin` |
 
 Vždy nahrávejte soubor pro svou variantu — zařízení soubor pro jiný hardware
 odmítne. Show ani nastavení se aktualizací nemažou.
